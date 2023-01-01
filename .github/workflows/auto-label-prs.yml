@@ -17,6 +17,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # See labeling configuration in the `.github/labeler.yml` file
-      - uses: actions/labeler@5f867a63be70efff62b767459b009290364495eb
+      - uses: actions/labeler@5c7539237e04b714afd8ad9b4aed733815b9fab4
         with:
           repo-token: '${{ secrets.GITHUB_TOKEN }}'
