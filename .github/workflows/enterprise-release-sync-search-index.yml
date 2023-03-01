@@ -63,7 +63,7 @@ jobs:
         run: $GITHUB_WORKSPACE/.github/actions-scripts/enterprise-search-label.js
 
       - name: Cache nextjs build
-        uses: actions/cache@937d24475381cd9c75ae6db12cb4e79714b926ed
+        uses: actions/cache@69d9d449aced6a2ede0bc19182fadc3a0a42d2b0
         with:
           path: .next/cache
           key: ${{ runner.os }}-nextjs-${{ hashFiles('package*.json') }}
